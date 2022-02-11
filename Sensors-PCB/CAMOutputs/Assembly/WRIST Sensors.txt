@@ -1,0 +1,6 @@
+Partlist exported from /Users/Edward/Desktop/WRIST Hardware/Sensors-PCB/WRIST Sensors.sch at 2/11/22 4:51 PM
+
+Qty Value   Device              Package      Parts                                   Description                                                                                                     
+2           CONN_021X02_NO_SILK 1X02_NO_SILK J3, J4                                  Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections 
+1           CONN_20NOSILK       1X20_NOSILK  J1                                      Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections 
+10  VL6180X VL6180X             VL6180       U1, U2, U3, U4, U5, U6, U7, U8, U9, U10 VL6180x Proximity and Light Sensor with Gesture Recognition                                                     
