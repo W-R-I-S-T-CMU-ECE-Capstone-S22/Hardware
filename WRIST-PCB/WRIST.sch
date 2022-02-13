@@ -8832,11 +8832,11 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <approved hash="102,1,43.18,162.56,OUT,2.8V,,,,"/>
 <approved hash="104,1,22.86,162.56,U3,IN,VCC,,,"/>
 <approved hash="113,1,235.543,115.485,J1,,,,,"/>
-<approved hash="113,1,202.523,165.168,J2,,,,,"/>
-<approved hash="113,1,227.923,152.468,J3,,,,,"/>
+<approved hash="113,1,202.523,165.137,J2,,,,,"/>
+<approved hash="113,1,227.923,152.437,J3,,,,,"/>
 <approved hash="113,1,202.523,115.485,J4,,,,,"/>
-<approved hash="113,1,227.923,165.168,J5,,,,,"/>
-<approved hash="113,1,202.523,152.468,J6,,,,,"/>
+<approved hash="113,1,227.923,165.137,J5,,,,,"/>
+<approved hash="113,1,202.523,152.437,J6,,,,,"/>
 </errors>
 </schematic>
 </drawing>

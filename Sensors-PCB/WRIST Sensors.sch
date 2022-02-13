@@ -6509,6 +6509,9 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <approved hash="104,1,116.84,81.28,U10,AVSS_VCS,GND,,,"/>
 <approved hash="104,1,116.84,83.82,U10,AVDD,2.8V,,,"/>
 <approved hash="104,1,116.84,88.9,U10,AVSS,GND,,,"/>
+<approved hash="113,1,192.363,68.6477,J3,,,,,"/>
+<approved hash="113,1,192.363,81.3477,J4,,,,,"/>
+<approved hash="113,1,144.103,69.7653,J1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
