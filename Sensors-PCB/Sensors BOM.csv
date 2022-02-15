@@ -1,4 +1,4 @@
-"Qty";"Value";"Device";"Package";"Parts";"Description";"";
-"2";"";"CONN_021X02_NO_SILK";"1X02_NO_SILK";"J3, J4";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";
-"1";"";"CONN_20NOSILK";"1X20_NOSILK";"J1";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";
-"10";"VL6180X";"VL6180X";"VL6180";"U1, U2, U3, U4, U5, U6, U7, U8, U9, U10";"VL6180x Proximity and Light Sensor with Gesture Recognition";"";
+Qty,Designator,Footprint,Comment,JLCPCB Part #（optional）,Description
+2,"J3, J4",1X02_NO_SILK,,,Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections
+1,J1,1X20_NOSILK,,,Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections
+10,"U1, U2, U3, U4, U5, U6, U7, U8, U9, U10",VL6180,,C2688732,VL6180x Proximity and Light Sensor with Gesture Recognition
