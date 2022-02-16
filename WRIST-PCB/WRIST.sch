@@ -7562,7 +7562,6 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10uF"/>
 <part name="U$20" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$21" library="microbuilder" deviceset="GND" device=""/>
-<part name="C6" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="0.1uF"/>
 <part name="U$22" library="microbuilder" deviceset="GND" device=""/>
 <part name="Q3" library="microbuilder" deviceset="MOSFET-N_DUAL" device="" value="BSS138"/>
 <part name="U$32" library="microbuilder" deviceset="FRAME_A4_ADAFRUIT" device=""/>
@@ -7639,6 +7638,7 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <part name="R23" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="10K"/>
 <part name="R25" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="10K"/>
 <part name="R26" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="10K"/>
+<part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="1X02_NO_SILK" package3d_urn="urn:adsk.eagle:package:38051/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -7681,19 +7681,15 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <attribute name="NAME" x="25.4" y="166.116" size="1.27" layer="95"/>
 <attribute name="VALUE" x="25.4" y="152.4" size="1.27" layer="95"/>
 </instance>
-<instance part="C5" gate="G$1" x="50.8" y="154.94" smashed="yes">
-<attribute name="NAME" x="48.51" y="156.19" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
-<attribute name="VALUE" x="53.1" y="156.19" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
+<instance part="C5" gate="G$1" x="48.26" y="154.94" smashed="yes">
+<attribute name="NAME" x="45.97" y="156.19" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="50.56" y="156.19" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
 </instance>
-<instance part="U$20" gate="G$1" x="50.8" y="144.78" smashed="yes">
-<attribute name="VALUE" x="49.276" y="142.24" size="1.27" layer="96"/>
+<instance part="U$20" gate="G$1" x="48.26" y="144.78" smashed="yes">
+<attribute name="VALUE" x="46.736" y="142.24" size="1.27" layer="96"/>
 </instance>
-<instance part="U$21" gate="G$1" x="60.96" y="144.78" smashed="yes">
-<attribute name="VALUE" x="59.436" y="142.24" size="1.27" layer="96"/>
-</instance>
-<instance part="C6" gate="G$1" x="60.96" y="154.94" smashed="yes">
-<attribute name="NAME" x="58.67" y="156.19" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
-<attribute name="VALUE" x="63.26" y="156.19" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
+<instance part="U$21" gate="G$1" x="63.5" y="144.78" smashed="yes">
+<attribute name="VALUE" x="61.976" y="142.24" size="1.27" layer="96"/>
 </instance>
 <instance part="U$22" gate="G$1" x="210.82" y="157.48" smashed="yes">
 <attribute name="VALUE" x="209.296" y="154.94" size="1.27" layer="96"/>
@@ -7718,11 +7714,11 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <instance part="P+4" gate="VCC" x="210.82" y="167.64" smashed="yes">
 <attribute name="VALUE" x="208.28" y="165.1" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$40" gate="G$1" x="60.96" y="167.64" smashed="yes">
-<attribute name="VALUE" x="59.436" y="168.656" size="1.27" layer="96"/>
+<instance part="U$40" gate="G$1" x="63.5" y="167.64" smashed="yes">
+<attribute name="VALUE" x="61.976" y="168.656" size="1.27" layer="96"/>
 </instance>
-<instance part="U$23" gate="G$1" x="50.8" y="167.64" smashed="yes">
-<attribute name="VALUE" x="49.276" y="168.656" size="1.27" layer="96"/>
+<instance part="U$23" gate="G$1" x="48.26" y="167.64" smashed="yes">
+<attribute name="VALUE" x="46.736" y="168.656" size="1.27" layer="96"/>
 </instance>
 <instance part="P+5" gate="VCC" x="78.74" y="167.64" smashed="yes">
 <attribute name="VALUE" x="76.2" y="165.1" size="1.778" layer="96" rot="R90"/>
@@ -7969,6 +7965,10 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <attribute name="NAME" x="162.56" y="160.02" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="165.1" y="160.02" size="1.016" layer="96" font="vector" ratio="15" rot="R90" align="center"/>
 </instance>
+<instance part="J7" gate="G$1" x="55.88" y="154.94" smashed="yes">
+<attribute name="VALUE" x="53.34" y="150.114" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="53.34" y="160.528" size="1.778" layer="95" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7988,12 +7988,12 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="U$20" gate="G$1" pin="GND"/>
-<wire x1="50.8" y1="152.4" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="152.4" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$21" gate="G$1" pin="GND"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="152.4" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="154.94" x2="63.5" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -8117,17 +8117,17 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 </net>
 <net name="2.8V" class="0">
 <segment>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="165.1" x2="60.96" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="165.1" x2="63.5" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="U$40" gate="G$1" pin="2.8V"/>
+<pinref part="J7" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="43.18" y1="162.56" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="162.56" x2="50.8" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="162.56" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="162.56" x2="48.26" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="OUT"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="162.56" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
-<junction x="50.8" y="162.56"/>
+<wire x1="48.26" y1="162.56" x2="48.26" y2="160.02" width="0.1524" layer="91"/>
+<junction x="48.26" y="162.56"/>
 <pinref part="U$23" gate="G$1" pin="2.8V"/>
 </segment>
 <segment>
@@ -8749,6 +8749,7 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <approved hash="113,1,202.523,115.485,J4,,,,,"/>
 <approved hash="113,1,227.923,165.168,J5,,,,,"/>
 <approved hash="113,1,202.523,152.468,J6,,,,,"/>
+<approved hash="113,1,60.2827,157.548,J7,,,,,"/>
 </errors>
 </schematic>
 </drawing>

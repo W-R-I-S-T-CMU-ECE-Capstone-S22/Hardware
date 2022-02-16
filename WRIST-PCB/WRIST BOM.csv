@@ -1,8 +1,7 @@
 Qty,Designator,Device,Footprint,Comment,JLCPCB Part #（optional）,Description
 4,"J2, J3, J5, J6",CONN_021X02_NO_SILK,1X02_NO_SILK,,,Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections
 2,"J1, J4",CONN_20NOSILK,1X20_NOSILK,,,Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections
-1,C6,CAP_CERAMIC0603_NO,0603-NO,0.1uF,,Ceramic Capacitors
-21,"R1, R2, R3, R4, R5, R6, R8, R7, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R25, R26",RESISTOR_0603_NOOUT,0603-NO,10K,C25744,Resistors
+21,"R1, R2, R3, R4, R5, R6, R8, R7, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R25, R26",RESISTOR_0603_NOOUT,0603-NO,10K,C269701,Resistors
 2,"C4, C5",CAP_CERAMIC0805-NOOUTLINE,0805-NO,10uF,C129234,Ceramic Capacitors
 10,"D1, D3, D4, D5, D6, D7, D8, D9, D10, D11",DIODESOD-323,SOD-323,1N4148,C81598,Diode
 1,Q3,MOSFET-N_DUAL,SOT363,BSS138,C779245,Dual N-Channel MOSFET
